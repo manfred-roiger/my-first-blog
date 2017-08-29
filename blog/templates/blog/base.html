@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load staticfiles %}
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}"
+    <meta charset="UTF-8">
+    <div id="main-header">
+        <div class="container">
+            <title>Django Girls Blog</title>
+        </div>
+    </div>
+</head>
+<body>
+    <header id="main-header">
+        <div class="container">
+            <h2>Django Girls Blog</h2>
+        </div>
+    </header>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>
