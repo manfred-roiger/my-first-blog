@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     {% load staticfiles %}
-    <link rel="stylesheet" href="{% static 'css/blog.css' %}"
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <meta charset="UTF-8">
     <div id="main-header">
         <div class="container">
@@ -13,7 +15,7 @@
 <body>
     <header id="main-header">
         <div class="container">
-            <h2>Django Girls Blog</h2>
+            <h2><a href="/">Django Girls Blog</a></h2>
         </div>
     </header>
     {% block content %}
